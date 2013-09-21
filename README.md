@@ -25,10 +25,13 @@ will show help.
 
 An example:
 
-    literate /home/directory build | say
-
-This will validate, and extract the first build command it finds - and then read it aloud.
 
 To build this using literate: 
 
     literate . build | sh
+
+This will validate the literate build (look for a .cloudbees.md and a README.md, this file, in this case) and then run the build section.
+You can also put content in the .cloudbees.md - in which case, it will read it form there.
+
+
+

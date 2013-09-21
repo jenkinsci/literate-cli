@@ -12,7 +12,12 @@ The following build environment is required to build this plugin
 
 To build the api locally:
 
-    mvn clean package
+    mvn clean
+    mvn package
+
+Now make the jar executable directly:
+
+    cat stub.sh  target/literate-api.jar > target/literate && chmod +x target/literate
     
 $ Using
 

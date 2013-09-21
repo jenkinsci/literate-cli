@@ -15,16 +15,16 @@
     <relativePath/>
   </parent>
 
-  <groupId>com.cloudbees.cruxdown</groupId>
-  <artifactId>cruxdown-lint</artifactId>
+  <groupId>com.cloudbees.literate</groupId>
+  <artifactId>literate-api</artifactId>
   <version>0.1-SNAPSHOT</version>
 
-  <name>CruxDown Lint</name>
-  <description>The command for validating CruxDown files</description>
+  <name>Literate CLI</name>
+  <description>The command for validating literate files</description>
 
   <scm>
-    <connection>scm:git:ssh://git@git.cloudbees.com/cloudbees/cruxdown-lint.git</connection>
-    <developerConnection>scm:git:ssh://git@git.cloudbees.com/cloudbees/cruxdown-lint.git</developerConnection>
+    <connection>scm:git:git@github.com:jenkinsci/literate-cli.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/literate-cli.git</developerConnection>
   </scm>
 
   <dependencies>
@@ -45,6 +45,7 @@
           <version>3.1</version>
           <configuration>
             <source>1.6</source>
+            <target>1.6</target>
             <target>1.6</target>
           </configuration>
         </plugin>
@@ -84,7 +85,7 @@
             <configuration>
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                  <mainClass>com.cloudbees.cruxdown.lint.Main</mainClass>
+                  <mainClass>com.cloudbees.literate.cli.Main</mainClass>
                 </transformer>
               </transformers>
             </configuration>

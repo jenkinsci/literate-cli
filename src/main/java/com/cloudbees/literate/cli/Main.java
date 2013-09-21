@@ -1,4 +1,4 @@
-package com.cloudbees.cruxdown.lint;
+package com.cloudbees.literate.cli;
 
 import org.cloudbees.literate.api.v1.ProjectModelFormatter;
 import org.cloudbees.literate.api.v1.ProjectModelRequest;

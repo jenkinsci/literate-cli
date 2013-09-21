@@ -28,9 +28,11 @@ public class Main {
 
     private static void handleHelp() {
         System.err.println("Usage: \n\nThis command will look for a .cloudbees.md with content, or a .cloudbees.md and a README.md in specified directory." +
-                "\nCheck syntax of literate build in specified directory\n\tliterate .\n" +
-                "\nReturn the build command for the specified environment (can be used for execution)\n\tliterate <dir> <environment name>\n" +
-                "\nReturn the build command for the first build section found\n\tliterate <dir> build\n\n");
+                "\nCheck syntax of literate build in a specified directory\n\tliterate .\n" +
+                "\nReturn the build command for the specified environment\n\tliterate <dir> <environment name>\n" +
+                "\nReturn the build command for the first build section found\n\tliterate <dir> build\n\n" +
+                "\n\nFor example, to run the build command for a literate project in the current directory:\n" +
+                "\n\tliterate . build | sh");
     }
 
 

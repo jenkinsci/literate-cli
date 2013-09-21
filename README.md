@@ -19,7 +19,17 @@ Now make the jar executable directly:
 
     cat stub.sh  target/literate-api.jar > target/literate && chmod +x target/literate
     
-$ Using
+# Usage
 
-   when build - run via java -jar, or just run the jar as an executable - it will tell you what to do. 
-   You can use this to do all sorts of things - even extract the build section, pipe it to shell, for example. 
+
+put `target/literate` on your path and then:
+
+    literate
+
+will show help.
+
+An example:
+
+    literate /home/directory build | say
+
+This will validate, and extract the first build command it finds - and then read it aloud.

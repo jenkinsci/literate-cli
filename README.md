@@ -2,11 +2,6 @@
 
  This is a utility to check and validate your literate config (.cloudbees.md and README.md)
 
-# Environment
-
-The following build environment is required to build this plugin
-
-* `java-1.6` and `maven-3.0.5`
 
 # Build
 

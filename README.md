@@ -31,4 +31,4 @@ This will validate, and extract the first build command it finds - and then read
 
 To build this using literate: 
 
-   literate . build | sh
+    literate . build | sh

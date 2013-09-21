@@ -28,3 +28,7 @@ An example:
     literate /home/directory build | say
 
 This will validate, and extract the first build command it finds - and then read it aloud.
+
+To build this using literate: 
+
+   literate . build | sh

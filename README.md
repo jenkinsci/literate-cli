@@ -7,8 +7,7 @@
 
 To build the api locally:
 
-    mvn clean
-    mvn package
+    mvn clean verify
 
 Now make the jar executable directly:
 
